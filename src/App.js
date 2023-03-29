@@ -4,17 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <BrowserRouter>
+      <Navebar>
+        <Routes>
+          <Route path='/Addbooks'element={Addbook data}={(
+            genere:''published:'',Author:'',title:'',publishedby:''}
+  )}
+        </Routes>
+
+
+      </BrowserRouter>
+      
           Learn React
         </a>
       </header>
